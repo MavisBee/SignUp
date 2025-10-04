@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+.main-container {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  column-gap: 32px;
+  align-items: center;
+  padding: 20px 50px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  flex-wrap: wrap;
+  padding: 20px 20px;
+  column-gap: 15px;
+}
+
+.navbar a:hover {
+  font-size: 1.125rem;
+  color: #437ef7;
+  font-weight: 600;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+}
+
+.signup-gif {
+  width: 100%;
+  height: 717px;
+  display: flex;
+}
+
+.signup-gif video {
+  width: 100%;
+  height: 717px;
+  object-fit: fill;
+}
+
+@media screen and (max-width: 768px) {
+  .signup-gif {
+    display: none;
+  }
+}
+
+.signup-form {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  row-gap: 16px;
+  padding: 2rem 1rem;
+  color: #ffffff;
+  background-color: #151b28;
+}
+
+.inner {
+  width: 100%;
+  max-width: 26.5rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 16px;
+  margin-top: 10px;
+  padding: 0 1rem;
+}
+
+.google button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 16px;
+  border: 1px solid #2c3444;
+  border-radius: 8px;
+  padding: 10px;
+  width: 100%;
+  max-width: 26.5rem;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #2c3444;
+  color: #ffffff;
+}
+
+.google img {
+  width: 20px;
+  height: 20px;
+}
+
+.google button:hover {
+  background-color: #437ef7;
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.or {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 26.5rem;
+}
+
+.or hr {
+  width: 100%;
+  border: 0.5px solid #2c3444;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 26.5rem;
+}
+
+@media screen and (max-width: 480px) {
+  .form-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .button {
+    width: 100%;
+  }
+}
+
+.form input {
+  width: 26.5rem;
+  max-width: 26.5rem;
+  height: 3rem;
+  border: 1px solid #464d5b;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #2c3444;
+  margin-top: 0.4rem;
+}
+
+@media screen and (max-width: 480px) {
+  .form input {
+    width: 100%;
+  }
+}
+.form input:hover {
+  border: 1px solid #437ef7;
+  outline: none;
+}
+
+.form input:focus {
+  color: #111;
+  background-color: #ffffff;
+}
+
+.Keep {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+  .Keep {
+    flex-direction: row;
+    row-gap: 1rem;
+    align-items: center;
+    font-size: 12px;
+  }
+}
+
+.radio {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  column-gap: 12px;
+  width: auto;
+}
+
+.radio-input {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #437ef7;
+  background-color: #437ef7;
+  cursor: pointer;
+}
+
+.Keep a {
+  color: #437ef7;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.Keep a:hover {
+  text-decoration: underline;
+}
+
+.radio label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e0e0e0;
+  cursor: pointer;
+}
+
+.button button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 16px;
+  border: 1px solid #2c3444;
+  border-radius: 8px;
+  padding: 10px;
+  width: 100%;
+  max-width: 26.5rem;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #437ef7;
+  color: #ffffff;
+}
+
+.button button:hover {
+  background-color: #699bff;
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.Login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 8px;
+  margin-top: 1.5rem;
+}
+.Login a {
+  color: #437ef7;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+.Login a:hover {
+  text-decoration: underline;
+}
+.Login p {
+  color: #e0e0e0;
+}
